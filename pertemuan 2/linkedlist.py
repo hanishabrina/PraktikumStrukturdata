@@ -103,7 +103,7 @@ LL = LinkedList()
 LL.insert_at_first("jeruk")
 LL.insert_at_first("mangga")
 LL.insert_at_first("manggis")
-LL.insert_at_first("apel")
+LL.insert_at_last("apel")
 LL.insert_at(2, "anggur")
 
 # remove
@@ -114,4 +114,5 @@ LL.remove_at(1)
 
 # print
 LL.print()
+
 print(LL.length())
